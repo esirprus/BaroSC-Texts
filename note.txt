@@ -1,0 +1,29 @@
+Waiting
+https://github.com/Regalis11/Barotrauma/issues/8457
+Inconsistent Translation in Wiring Components in Chinese Translations
+There're 4 different translation for word "component" in Chinese translations, e.g.
+
+<!-- English, Simp. Chinese, Trad. Chinese Transaltions of same items -->
+
+<!-- Translation A: 逻辑门/邏輯門 (lit. Logic Gate) -->
+<entityname.andcomponent>And Component</entityname.andcomponent>
+<entityname.andcomponent>与逻辑门</entityname.andcomponent>
+<entityname.andcomponent>與邏輯門</entityname.andcomponent>
+
+<!-- Translation B: 元件/元件 (lit. element, component) -->
+<entityname.sincomponent>Sin Component</entityname.sincomponent>
+<entityname.sincomponent>正弦元件</entityname.sincomponent>
+<entityname.sincomponent>正弦元件</entityname.sincomponent>
+
+<!-- Translation C: 模块/模組 (lit. module) -->
+<entityname.concatcomponent>Concatenation Component</entityname.concatcomponent>
+<entityname.concatcomponent>连接模块</entityname.concatcomponent>
+<entityname.concatcomponent>連接模組</entityname.concatcomponent>
+
+<!-- Translation D: 组件/組件 (lit. component) -->
+<entityname.signalcheckcomponent>Signal Check Component</entityname.signalcheckcomponent>
+<entityname.signalcheckcomponent>信号检查组件</entityname.signalcheckcomponent>
+<entityname.signalcheckcomponent>信號檢查組件</entityname.signalcheckcomponent>
+The inconsistency makes filtering wiring components in fabricator difficult. I suggest apply Translation D to all translations of wiring comonents.
+
+The term "false output" also has different translations: "假输出/假輸出" (lit. falsy output) and "伪输出/偽輸出" (lit. default output). I suggest apply the former to all translations of "false output".
