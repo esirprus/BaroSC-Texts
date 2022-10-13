@@ -39,7 +39,7 @@
     <previouslyusedlabel>使用过的物品</previouslyusedlabel>
     <subnamemissingwarning>在保存前为您的潜艇起一个名字</subnamemissingwarning>
     <subnameillegalcharswarning>文件名中含有非法字符 ([illegalchar])</subnameillegalcharswarning>
-    <subsavednotification>潜艇已保存至 [filepath].</subsavednotification>
+    <subsavednotification>潜艇已保存至 [filepath]。</subsavednotification>
     <savesubdialogheader>保存潜艇</savesubdialogheader>
     <savesubdialogname>名称</savesubdialogname>
     <savesubdialogdescription>描述</savesubdialogdescription>
