@@ -594,7 +594,8 @@
     <sp.vulnerabletoemp.name>易受电磁脉冲影响</sp.vulnerabletoemp.name>
     <sp.vulnerabletoemp.description>物品是否会被电磁脉冲损坏</sp.vulnerabletoemp.description>
 
-    <!-- Structure -->
+    <!--暂时移除翻译
+     Structure 
     <entityname.hull>船体</entityname.hull>
     <entitydescription.hull>船体决定了哪些部件被认为在“潜艇内部”，一般来说，每个房间都应该用船体围起来</entitydescription.hull>
     <entityname.gap>通路</entityname.gap>
@@ -1125,7 +1126,7 @@
 
     <entityname.bunk>Bunk</entityname.bunk>
 
-    <!--Outpost decorative structures-->
+    Outpost decorative structures
     <entityname.opdeco_weaponstoragesuit1>套装展示柜</entityname.opdeco_weaponstoragesuit1>
     <entityname.op_weaponstoragesmall>小型武器展示柜</entityname.op_weaponstoragesmall>
     <entityname.op_weaponstoragemedium>中型武器展示柜</entityname.op_weaponstoragemedium>
@@ -1219,7 +1220,7 @@
     <entityname.op_painting1>Framed Painting</entityname.op_painting1>
     <entityname.op_wetsign>Cleaning Sign</entityname.op_wetsign>
 
-    <!--Outpost structures-->
+    Outpost structures
     <entityname.FF_Wall_I1>前哨站墙壁 1</entityname.FF_Wall_I1>
     <entityname.FF_Wall_I2>前哨站墙壁 2</entityname.FF_Wall_I2>
     <entityname.FF_Wall_I3>前哨站墙壁 3</entityname.FF_Wall_I3>
@@ -1296,7 +1297,7 @@
     <entityname.engineerequipment>Engineer Equipment</entityname.engineerequipment>
     <entityname.Jaildoor>Jail Door</entityname.Jaildoor>
     <entityname.shelf>Shelf</entityname.shelf>
-
+    -->
    <!-- Serializable Properties -->
     <sp.emitter.anglerange.name>角度范围</sp.emitter.anglerange.name>
     <sp.emitter.velocityrange.name>速度范围</sp.emitter.velocityrange.name>
