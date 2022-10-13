@@ -77,18 +77,18 @@
     <cannoteditvanillasubs>无法编辑原版内容包中锁定的潜艇！</cannoteditvanillasubs>
     <subeditor.structurecountwarning>该潜艇有非常多的结构（>[max]），这可能导致性能问题。考虑减少结构的数量。</subeditor.structurecountwarning>
     <subeditor.structurecounterror>该潜艇有太多的结构（>[max]），这将导致性能问题。请减少结构的数量。</subeditor.structurecounterror>
-    <subeditor.wallcountwarning>The submarine has a very large number of wall pieces with a collider, which may cause performance issues. Consider reducing the number of walls.</subeditor.wallcountwarning>
-    <subeditor.wallcounterror>The submarine has too many wall pieces with a collider (>[max]), which will lead to performance issues. Please reduce the number of wall pieces.</subeditor.wallcounterror>
-    <subeditor.itemcountwarning>The submarine has a very large number of items, which may cause performance issues. Consider reducing the number of items.</subeditor.itemcountwarning>
-    <subeditor.itemcounterror>The submarine has too many items (>[max]), which will lead to performance issues. Please reduce the number of items.</subeditor.itemcounterror>
-    <subeditor.lightcountwarning>The submarine has a very large number of light sources, which may cause performance issues. Consider reducing the number of lights.</subeditor.lightcountwarning>
-    <subeditor.lightcounterror>The submarine has too many light sources (>[max]), which will lead to performance issues. Please reduce the number of lights.</subeditor.lightcounterror>
-    <subeditor.shadowcastinglightcounterror>The submarine has too many shadow-casting light sources (>[max]), which will lead to performance issues. Please reduce the number of lights, or disable shadow-casting on some of the lights.</subeditor.shadowcastinglightcounterror>
-    <canattachtoprevious>Can attach to previous</canattachtoprevious>
-    <canattachtoprevious.tooltip>Which sides of this module are allowed to attach to the previously placed module. E.g. if you want a module to always attach to the left side of the docking module, you could set this to Right.</canattachtoprevious.tooltip>
+    <subeditor.wallcountwarning>该潜艇有非常多带有碰撞器的墙体，这可能导致性能问题。考虑减少这种墙体的数量。</subeditor.wallcountwarning>
+    <subeditor.wallcounterror>该潜艇有太多带有碰撞器的墙体（>[max]），这将导致性能问题。请减少这种墙体的数量。</subeditor.wallcounterror>
+    <subeditor.itemcountwarning>该潜艇有非常多的物品，这可能导致性能问题。考虑减少物品的数量。</subeditor.itemcountwarning>
+    <subeditor.itemcounterror>该潜艇有太多的物品（>[max]），这将导致性能问题。请减少物品的数量。</subeditor.itemcounterror>
+    <subeditor.lightcountwarning>该潜艇有非常多的光源，这可能导致性能问题。考虑减少灯光的数量。</subeditor.lightcountwarning>
+    <subeditor.lightcounterror>该潜艇有太多的光源（>[max]），这将导致性能问题。请减少灯的数量。</subeditor.lightcounterror>
+    <subeditor.shadowcastinglightcounterror>该潜艇有太多投影光源（>[max]），这将导致性能问题。请减少灯光的数量，或者禁用某些灯光的阴影投射。</canattachtoprevious>
+    <canattachtoprevious></canattachtoprevious>
+    <canattachtoprevious.tooltip></canattachtoprevious.tooltip>
 
-    <subeditor.packagealreadyexists>There is already a content package with the name "[name]". Please choose another name or select the package from the list if you want to edit it.</subeditor.packagealreadyexists>
-    <subeditor.duplicatesubinpackage>The content package already contains a submarine with the same name. Do you want to overwrite the existing submarine file?</subeditor.duplicatesubinpackage>
+    <subeditor.packagealreadyexists>已经有一个名字为"[name]"的内容包，请使用另外的名字。如果你想编辑它，请从列表中选择该内容包。</subeditor.packagealreadyexists>
+    <subeditor.duplicatesubinpackage>该内容包已经包含了一个同名的潜艇。你想覆盖其中的潜艇文件吗？</subeditor.duplicatesubinpackage>
 
 
     <!-- Entity Editor -->
@@ -109,7 +109,7 @@
     <spriteeditor.resetzoom>重置放大</spriteeditor.resetzoom>
     <spriteeditor.showgrid>显示网格</spriteeditor.showgrid>
     <spriteeditor.snaptogrid>对齐网格</spriteeditor.snaptogrid>
-    <spriteeditor.backgroundcolor>背景\nColor:</spriteeditor.backgroundcolor>
+    <spriteeditor.backgroundcolor>背景\n颜色:</spriteeditor.backgroundcolor>
     <spriteeditor.colorcomponentr>R</spriteeditor.colorcomponentr>
     <spriteeditor.colorcomponentg>G</spriteeditor.colorcomponentg>
     <spriteeditor.colorcomponentb>B</spriteeditor.colorcomponentb>
@@ -327,9 +327,9 @@
     <leveleditor.caveparams>洞穴参数</leveleditor.caveparams>
     <leveleditor.outpostparams>前哨站参数</leveleditor.outpostparams>
     <leveleditor.addmoduletype>添加模块类型</leveleditor.addmoduletype>
-    <leveleditor.allowinvalidoutpost>Allow invalid outposts</leveleditor.allowinvalidoutpost>
-    <leveleditor.allowinvalidoutpost.tooltip>Should the outpost generator place an outpost that generated incorrectly (e.g. missing some required modules) instead of replacing it with a fallback outpost. Can be useful for debugging outpost generation.</leveleditor.allowinvalidoutpost.tooltip>
-    <leveleditor.allsaved>All changes saved</leveleditor.allsaved>
+    <leveleditor.allowinvalidoutpost>允许无效的前哨站</leveleditor.allowinvalidoutpost>
+    <leveleditor.allowinvalidoutpost.tooltip>前哨站生成器是否允许生成无效的前哨站(比如：缺少一些必要的模块)而不是用一个后备的前哨站替代它。这对调试前哨站的生成很有用。</leveleditor.allowinvalidoutpost.tooltip>
+    <leveleditor.allsaved>所有的改动已保存</leveleditor.allsaved>
 
     <sp.item.hiddeningame.name>在游戏内隐藏</sp.item.hiddeningame.name>
     <sp.item.noninteractable.name>不可交互</sp.item.noninteractable.name>
@@ -544,8 +544,8 @@
     <sp.waterdetector.output.description>设备被水淹过时发出的信号</sp.waterdetector.output.description>
     <sp.waterdetector.falseoutput.name>假输出</sp.waterdetector.falseoutput.name>
     <sp.waterdetector.falseoutput.description>没有被水淹过时发出的信号</sp.waterdetector.falseoutput.description>
-    <sp.notcomponent.continuousoutput.name>Continuous Output</sp.notcomponent.continuousoutput.name>
-    <sp.notcomponent.continuousoutput.description>When enabled, the component continuously outputs "1" when it's not receiving a signal.</sp.notcomponent.continuousoutput.description>
+    <sp.notcomponent.continuousoutput.name>持续输出</sp.notcomponent.continuousoutput.name>
+    <sp.notcomponent.continuousoutput.description>当启用时，组件在没有接收到信号时持续输出“1”。</sp.notcomponent.continuousoutput.description>
     <sp.electricaldischarger.range.name>范围</sp.electricaldischarger.range.name>
     <sp.electricaldischarger.range.description>能放出距离设备多远的电</sp.electricaldischarger.range.description>
     <sp.electricaldischarger.rangemultiplierinwalls.name>墙体阻隔后范围</sp.electricaldischarger.rangemultiplierinwalls.name>
@@ -655,19 +655,19 @@
     <entityname.tailfinb>尾鳍 B</entityname.tailfinb>
     <entityname.tailfinc>尾鳍 C</entityname.tailfinc>
     <entityname.tailfind>尾鳍 D</entityname.tailfind>
-    <entityname.tailfind2p1>Tail Fin D2 P1</entityname.tailfind2p1>
-    <entityname.tailfind2p2>Tail Fin D2 P2</entityname.tailfind2p2>
-    <entityname.tailfind2p3>Tail Fin D2 P3</entityname.tailfind2p3>
-    <entityname.tailfind3p1>Tail Fin D3 P1</entityname.tailfind3p1>
-    <entityname.tailfind3p2>Tail Fin D3 P2</entityname.tailfind3p2>
-    <entityname.tailfind3p3>Tail Fin D3 P3</entityname.tailfind3p3>
-    <entityname.tailfinep1>Tail Fin E P1</entityname.tailfinep1>
-    <entityname.tailfinep2>Tail Fin E P2</entityname.tailfinep2>
-    <entityname.tailfinfp3>Tail Fin E P3</entityname.tailfinfp3>
-    <entityname.tailfinf1>Tail Fin F1</entityname.tailfinf1>
-    <entityname.tailfinf2>Tail Fin F2</entityname.tailfinf2>
-    <entityname.tailfinf3>Tail Fin F3</entityname.tailfinf3>
-    <entityname.tailfinf4>Tail Fin F4</entityname.tailfinf4>
+    <entityname.tailfind2p1>尾鳍 D2 P1</entityname.tailfind2p1>
+    <entityname.tailfind2p2>尾鳍 D2 P2</entityname.tailfind2p2>
+    <entityname.tailfind2p3>尾鳍 D2 P3</entityname.tailfind2p3>
+    <entityname.tailfind3p1>尾鳍 D3 P1</entityname.tailfind3p1>
+    <entityname.tailfind3p2>尾鳍 D3 P2</entityname.tailfind3p2>
+    <entityname.tailfind3p3>尾鳍 D3 P3</entityname.tailfind3p3>
+    <entityname.tailfinep1>尾鳍 E P1</entityname.tailfinep1>
+    <entityname.tailfinep2>尾鳍 E P2</entityname.tailfinep2>
+    <entityname.tailfinfp3>尾鳍 E P3</entityname.tailfinfp3>
+    <entityname.tailfinf1>尾鳍 F1</entityname.tailfinf1>
+    <entityname.tailfinf2>尾鳍 F2</entityname.tailfinf2>
+    <entityname.tailfinf3>尾鳍 F3</entityname.tailfinf3>
+    <entityname.tailfinf4>尾鳍 F4</entityname.tailfinf4>
     <entitydescription.tailnocollision>Decorative submarine tail piece with no collision detection.</entitydescription.tailnocollision>
     <entityname.exta_front>Submarine Bow A</entityname.exta_front>
     <entityname.subfrontb>Submarine Bow B</entityname.subfrontb>
@@ -1492,7 +1492,7 @@
     <particle.brownchunks>棕色碎块</particle.brownchunks>
     <particle.aliengas>外星气体</particle.aliengas>
     <!--other-->
-        <subeditor.shadowcastinglightswarning>游戏中运用了大量的投影，可能会导致一些性能上的问题。你可能想要禁用引用投射，调整光源：让照明穿过墙壁和门、昏暗或范围较窄的静态光环境下不一定需要投影；潜艇外的光源可以设在潜艇后面，这种情况也无需投影。</subeditor.shadowcastinglightswarning>
+    <subeditor.shadowcastinglightswarning>游戏中运用了大量的投影，可能会导致一些性能上的问题。你可能想要禁用引用投射，调整光源：让照明穿过墙壁和门、昏暗或范围较窄的静态光环境下不一定需要投影；潜艇外的光源可以设在潜艇后面，这种情况也无需投影。</subeditor.shadowcastinglightswarning>
     <subeditor.outpostcommonness>概率</subeditor.outpostcommonness>
     <subeditor.price>价格</subeditor.price>
     <subeditor.autosaveage> [hours]小时[minutes]分[seconds]秒前已保存</subeditor.autosaveage>
