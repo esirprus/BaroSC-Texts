@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
+<Override>
 <!-- Loading Screen tips -->
 <loadingscreentip>在使用潜水面罩时，注意不要把焊接油罐和氧气罐弄混。</loadingscreentip>
 <!-- Steam Workshop menu -->
@@ -35,4 +36,32 @@
 <!-- Item HUDs -->
 <fabricatorcreate>制造</fabricatorcreate>
 <researchstation.refine.infotext>检测到遗传物质。准备精炼。警告：样品被污染的概率为[taintedprobability]%。</researchstation.refine.infotext>
+<!-- Engineer tutorial -->
+<engineer.repairjunctionboxtext>像机械设备一样，接线盒也需要维护，除了自然老化之外，它们还会受到进水和过载的损害。\n\n电气设备是用螺丝刀维修的。装备一把并与设备互动({0})，就可以看到维修界面。</engineer.repairjunctionboxtext>
+<!-- Disclaimers -->
+<bugreportfeedbackform>帮助和技术支持</bugreportfeedbackform>
+<!-- Connections -->
+<connection.signala>透明度信号</connection.signala>
+<!-- Component labels -->
+<addercomponent.clampmin>钳制最小值</addercomponent.clampmin>
+<addercomponent.clampmax>钳制最大值</addercomponent.clampmax>
+<motionsensor.falseoutput>假输出</motionsensor.falseoutput>
+<signalcheckcomponent.falseoutput>假输出</signalcheckcomponent.falseoutput>
+<waterdetector.falseoutput>假输出</waterdetector.falseoutput>
+<regexfindcomponent.continuousoutput>持续输出</regexfindcomponent.continuousoutput>
+<!-- Editor -->
+<falseoutput>假输出</falseoutput>
+<timeframe>时间范围</timeframe>
+<!-- Personality traits -->
+<personalitytrait.brokenenglish>蹩脚英语</personalitytrait.brokenenglish>
+<!-- Submarine upgrades & repairs -->
+<upgradecategory.walls>船壳</upgradecategory.walls>
+<!-- Campaign submarine purchasing / selection -->
+<noitemswarning>所选潜艇上的所有物品已被转移至别处。确定要不携带任何物品并切换至该潜艇？</noitemswarning>
+<!-- Server lobby -->
+<returntoserverlobby>服务器大厅</returntoserverlobby>
+<pausemenureturntoserverlobbyverification>确定要返回服务器大厅吗？未保存的游戏进程会消失。</pausemenureturntoserverlobbyverification>
+
+
+</Override>
 </infotexts>

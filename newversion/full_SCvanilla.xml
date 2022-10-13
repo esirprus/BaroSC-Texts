@@ -771,7 +771,7 @@
 <sp.arithmeticcomponent.clampmax.description>项目的输出被限制在此值以下。</sp.arithmeticcomponent.clampmax.description>
 <sp.concatcomponent.separator.name>分隔符</sp.concatcomponent.separator.name>
 <sp.concatcomponent.separator.description>放在输入字符串之间的符号。</sp.concatcomponent.separator.description>
-<falseoutput>错误输出</falseoutput>
+<falseoutput>假输出</falseoutput>
 <timeframe>时间范围</timeframe>
 <timeframe.description>该项目必须在此时间范围内收到两个输入的信号，才能输出结果。如果设置为0，则必须在同一时间收到输入。</timeframe.description>
 <sp.equalscomponent.output.description>当收到的输入相等时发送的信号（如果为空则不发送信号）。</sp.equalscomponent.output.description>
@@ -4512,7 +4512,7 @@
 <!-- Room 4 -->
 <engineer.repairjunctionbox></engineer.repairjunctionbox>
 <engineer.repairjunctionboxobjective></engineer.repairjunctionboxobjective>
-<engineer.repairjunctionboxtext></engineer.repairjunctionboxtext>
+<engineer.repairjunctionboxtext>像机械设备一样，接线盒也需要维护，除了自然老化之外，它们还会受到进水和过载的损害。\n\n电气设备是用螺丝刀维修的。装备一把并与设备互动({0})，就可以看到维修界面。</engineer.repairjunctionboxtext>
 
 <!-- Room 5 -->
 <engineer.wirejunctionboxes>接线</engineer.wirejunctionboxes>
@@ -4726,7 +4726,7 @@
 <editordisclaimerdiscordlink>Discord服务器</editordisclaimerdiscordlink>
 <editordisclaimerforumlink>论坛</editordisclaimerforumlink>
 <bugreportgithubform>在Github上提交issue</bugreportgithubform>
-<bugreportfeedbackform>直接反馈给制作组</bugreportfeedbackform>
+<bugreportfeedbackform>帮助和技术支持</bugreportfeedbackform>
 <bugreportbutton>上报一个程序漏洞</bugreportbutton>
 <centerarealockedheader>前路未知...</centerarealockedheader>
 <centerarealockedtext>此区域在当前版本无法进入。请静待未来更新！</centerarealockedtext>
@@ -4765,7 +4765,7 @@
 <connection.signalr>红色信号</connection.signalr>
 <connection.signalg>绿色信号</connection.signalg>
 <connection.signalb>蓝色信号</connection.signalb>
-<connection.signala>全色信号</connection.signala>
+<connection.signala>透明度信号</connection.signala>
 <connection.setoutput>设置输出</connection.setoutput>
 <connection.signalstore>信号储存</connection.signalstore>
 <connection.settargetsignal>设置目标信号</connection.settargetsignal>
@@ -4987,8 +4987,8 @@
 
 <!-- Component labels -->
 <addercomponent.timeframe>时间表</addercomponent.timeframe>
-<addercomponent.clampmin>最低端口</addercomponent.clampmin>
-<addercomponent.clampmax>最高端口</addercomponent.clampmax>
+<addercomponent.clampmin>钳制最小值</addercomponent.clampmin>
+<addercomponent.clampmax>钳制最大值</addercomponent.clampmax>
 <equalscomponent.timeframe>时间表</equalscomponent.timeframe>
 <equalscomponent.output>输出</equalscomponent.output>
 <equalscomponent.falseoutput>假输出</equalscomponent.falseoutput>
@@ -5003,17 +5003,17 @@
 <regexfindcomponent.output>输出</regexfindcomponent.output>
 <regexfindcomponent.falseoutput>假输出</regexfindcomponent.falseoutput>
 <regexfindcomponent.expression>表达式</regexfindcomponent.expression>
-<regexfindcomponent.continuousoutput>连续输出</regexfindcomponent.continuousoutput>
+<regexfindcomponent.continuousoutput>持续输出</regexfindcomponent.continuousoutput>
 <memorycomponent.value>值</memorycomponent.value>
 <motionsensor.output>输出</motionsensor.output>
-<motionsensor.falseoutput>伪输出</motionsensor.falseoutput>
+<motionsensor.falseoutput>假输出</motionsensor.falseoutput>
 <motionsensor.rangex>水平距离</motionsensor.rangex>
 <motionsensor.rangey>垂直距离</motionsensor.rangey>
 <signalcheckcomponent.targetsignal>目标信号</signalcheckcomponent.targetsignal>
 <signalcheckcomponent.output>输出</signalcheckcomponent.output>
-<signalcheckcomponent.falseoutput>伪输出</signalcheckcomponent.falseoutput>
+<signalcheckcomponent.falseoutput>假输出</signalcheckcomponent.falseoutput>
 <waterdetector.output>输出</waterdetector.output>
-<waterdetector.falseoutput>伪输出</waterdetector.falseoutput>
+<waterdetector.falseoutput>假输出</waterdetector.falseoutput>
 <wificomponent.channel>频道</wificomponent.channel>
 
 <!-- Personality traits -->
@@ -5023,7 +5023,7 @@
 <personalitytrait.rude>粗鲁</personalitytrait.rude>
 <personalitytrait.tough>强硬</personalitytrait.tough>
 <personalitytrait.joker>谐星</personalitytrait.joker>
-<personalitytrait.brokenenglish>大舌头</personalitytrait.brokenenglish>
+<personalitytrait.brokenenglish>蹩脚英语</personalitytrait.brokenenglish>
 <personalitytrait.fearful>胆小</personalitytrait.fearful>
 <personalitytrait.crazy>疯狂</personalitytrait.crazy>
 
@@ -5774,7 +5774,7 @@
 <EventText.nothingtoseehere.o1.o1.o1.c1.o2>不去深究。</EventText.nothingtoseehere.o1.o1.o1.c1.o2>
 
 <!-- Submarine upgrades & repairs -->
-<upgradecategory.walls>外壳</upgradecategory.walls>
+<upgradecategory.walls>船壳</upgradecategory.walls>
 <upgradecategory.junctionboxes>接线盒</upgradecategory.junctionboxes>
 <upgradecategory.pumps>水泵</upgradecategory.pumps>
 <upgradecategory.supercapacitors>超级电容器</upgradecategory.supercapacitors>
@@ -5954,7 +5954,7 @@
 <lowfuelheader>燃料不足</lowfuelheader>
 <lowfuelwarning>潜艇燃料棒低于2枚。</lowfuelwarning>
 <noitemsheader>无物品</noitemsheader>
-<noitemswarning>所选潜艇上所有物品将被转移至别处。确定要不携带任何物品并切换至该潜艇？</noitemswarning>
+<noitemswarning>所选潜艇上的所有物品已被转移至别处。确定要不携带任何物品并切换至该潜艇？</noitemswarning>
 
 <!-- Submarine types -->
 <submarinetype>潜艇类型</submarinetype>
