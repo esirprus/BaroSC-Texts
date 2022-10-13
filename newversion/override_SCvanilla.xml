@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
+<!-- Loading Screen tips -->
+<loadingscreentip>在使用潜水面罩时，注意不要把焊接油罐和氧气罐弄混。</loadingscreentip>
 <!-- Steam Workshop menu -->
 <workshop.contenttag.item>物品</workshop.contenttag.item>
 <workshop.contenttag.art>艺术</workshop.contenttag.art>

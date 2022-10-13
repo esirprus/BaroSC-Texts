@@ -46,7 +46,7 @@
 <loadingscreentip>非常不幸的是，精神病等精神障碍在潜艇船员中很常见，尤其是在遗迹探险之后。如果你的船员开始看到或听到其他人无法认知的事物，立即向医生报告。</loadingscreentip>
 <loadingscreentip>医生们的主要任务是保证船员们的身体健康，但在有入侵者侵入时，有着注射器枪与毒药知识的医生不容忽视。</loadingscreentip>
 <loadingscreentip>许多药物有着意想不到的副作用。请密切关注病人情况，随时准备用其他药物来抵消这些副作用。</loadingscreentip>
-<loadingscreentip>在使用潜水面罩时，注意不要把焊接油箱和氧气罐弄混。</loadingscreentip>
+<loadingscreentip>在使用潜水面罩时，注意不要把焊接油罐和氧气罐弄混。</loadingscreentip>
 <loadingscreentip>潜水面罩可以让你在水下呼吸，但不能帮助你抵御深海水压。如果船体有较大的结构破损，请立即换上潜水衣。</loadingscreentip>
 <loadingscreentip>一旦发生火灾，比烧伤更需要注意的是潜艇内的氧气含量。</loadingscreentip>
 <loadingscreentip>穿越这片被称为热液废土的地形时需格外小心，这些区域生物数量丰富，地热活动引发的水流变化使航行变得更加危险。</loadingscreentip>
@@ -202,13 +202,13 @@
 <workshopitemincompatible>不兼容</workshopitemincompatible>
 <workshopitemincompatibletooltip>该创意工坊项目与当前游戏版本不兼容</workshopitemincompatibletooltip>
 <workshop.contenttag.submarine>潜艇</workshop.contenttag.submarine>
-<workshop.contenttag.item>项目中包含的文件</workshop.contenttag.item>
-<workshop.contenttag.art>美化</workshop.contenttag.art>
+<workshop.contenttag.item>物品</workshop.contenttag.item>
+<workshop.contenttag.art>艺术</workshop.contenttag.art>
 <workshop.contenttag.environment>环境</workshop.contenttag.environment>
 <workshop.contenttag.monster>怪物</workshop.contenttag.monster>
-<workshop.contenttag.mission>关卡</workshop.contenttag.mission>
-<workshop.contenttag.eventset>事件组</workshop.contenttag.eventset>
-<workshop.contenttag.totalconversion>总转化</workshop.contenttag.totalconversion>
+<workshop.contenttag.mission>任务</workshop.contenttag.mission>
+<workshop.contenttag.eventset>事件设置</workshop.contenttag.eventset>
+<workshop.contenttag.totalconversion>全面改动</workshop.contenttag.totalconversion>
 <workshop.contenttag.itemassembly>物品组合</workshop.contenttag.itemassembly>
 <workshop.contenttag.language>语言</workshop.contenttag.language>
 <workshoperroronenable>无法启用工坊项目'[itemname]'。</workshoperroronenable>
@@ -957,9 +957,9 @@
 <outpost>前哨站</outpost>
 <campaignmenuhireable>可雇佣船员</campaignmenuhireable>
 <hirebutton>雇佣</hirebutton>
-<firebutton>开除</firebutton>
+<firebutton>解雇</firebutton>
 <firewarningheader>你确定吗？</firewarningheader>
-<firewarningtext>你确定要开除船员[charactername]吗？解雇船员后无法再次雇佣该人物。</firewarningtext>
+<firewarningtext>你确定要解雇船员[charactername]吗？解雇船员后无法再次雇佣该人物。</firewarningtext>
 <location>地点</location>
 <hireunavailable>无人可雇</hireunavailable>
 <mission>任务</mission>
@@ -1831,7 +1831,7 @@
 
 <!-- Entity categories -->
 <mapentitycategory.all>全部</mapentitycategory.all>
-<mapentitycategory.structure>建筑</mapentitycategory.structure>
+<mapentitycategory.structure>结构</mapentitycategory.structure>
 <mapentitycategory.machine>机械</mapentitycategory.machine>
 <mapentitycategory.equipment>装备</mapentitycategory.equipment>
 <mapentitycategory.electrical>电器</mapentitycategory.electrical>
@@ -1848,12 +1848,12 @@
 <mapentitycategory.weapon>武器</mapentitycategory.weapon>
 <mapentitycategory.diving>潜水</mapentitycategory.diving>
 <mapentitycategory.fuel>燃料</mapentitycategory.fuel>
-<ItemAssemblies>物品装配</ItemAssemblies>
+<ItemAssemblies>物品组合</ItemAssemblies>
 
 <!-- Display names -->
 <displayname.oxygentankempty>氧气罐（空）</displayname.oxygentankempty>
-<displayname.weldingfueltankempty>焊接油箱（空）</displayname.weldingfueltankempty>
-<displayname.scrapsavantitem>[物品名称] (废料专家)</displayname.scrapsavantitem>
+<displayname.weldingfueltankempty>焊接油罐（空）</displayname.weldingfueltankempty>
+<displayname.scrapsavantitem>[itemname] (废料专家)</displayname.scrapsavantitem>
 <displayname.recycleitem>[itemname] (回收)</displayname.recycleitem>
 <displayname.emptyitem>[itemname] (空)</displayname.emptyitem>
 
@@ -2009,7 +2009,7 @@
 <entitydescription.weldingtool>潜艇上最重要的工具之一，可在水下工作。</entitydescription.weldingtool>
 <entityname.plasmacutter>等离子切割器</entityname.plasmacutter>
 <entitydescription.plasmacutter>通过高温电离氧气产生等离子电弧，用于切割各种材料。</entitydescription.plasmacutter>
-<entityname.weldingfueltank>焊接油箱</entityname.weldingfueltank>
+<entityname.weldingfueltank>焊接油罐</entityname.weldingfueltank>
 <entitydescription.weldingfueltank>焊接工具的燃料。</entitydescription.weldingfueltank>
 <entityname.oxygentank>氧气罐</entityname.oxygentank>
 <entitydescription.oxygentank>便携氧气储存装置。</entitydescription.oxygentank>
@@ -2065,7 +2065,7 @@
 <entitydescription.alienspear>鱼叉枪的“弹药”，以异星原料制成。</entitydescription.alienspear>
 <entityname.explosivespear>爆炸鱼叉</entityname.explosivespear>
 <entitydescription.explosivespear>鱼叉枪的“弹药”。</entitydescription.explosivespear>
-<entityname.harpoongun>鱼叉枪用的鱼叉枪。</entityname.harpoongun>
+<entityname.harpoongun>鱼叉枪</entityname.harpoongun>
 <entitydescription.harpoongun>可发射鱼叉、爆炸鱼叉、刚素鱼叉。</entitydescription.harpoongun>
 <entityname.syringegun>注射器枪</entityname.syringegun>
 <entitydescription.syringegun>发射包含药物或毒液的注射器。</entitydescription.syringegun>
@@ -2123,7 +2123,7 @@
 <entitydescription.toyhammer>非致命武器，但极其烦人。</entitydescription.toyhammer>
 <entityname.crawlermask>藻鬃爬行者面具</entityname.crawlermask>
 <entitydescription.crawlermask>使穿着者身份不会暴露。某些变装派对上的出彩装扮。</entitydescription.crawlermask>
-<entityname.huskstinger>外壳寄生虫蛰针</entityname.huskstinger>
+<entityname.huskstinger>画皮寄生虫蛰针</entityname.huskstinger>
 <entitydescription.huskstinger>临时刺杀用具</entitydescription.huskstinger>
 <entityname.shellshield>摩螺克甲壳碎片</entityname.shellshield>
 <entitydescription.shellshield>一块结实的摩螺克甲壳。</entitydescription.shellshield>
@@ -2493,7 +2493,7 @@
 <entityname.potassium>钾</entityname.potassium>
 <entitydescription.potassium>用于制作炸药与医用化合物，与水接触后剧烈反应。</entitydescription.potassium>
 <entityname.magnesium>镁</entityname.magnesium>
-<entitydescription.magnesium>用于制作炸药与医用化合物，与水接触后剧烈反应。</entitydescription.magnesium>
+<entitydescription.magnesium>用于制作炸药与医用化合物。</entitydescription.magnesium>
 <entityname.lithium>锂</entityname.lithium>
 <entitydescription.lithium>常用于制作电池与抗精神病药物。</entitydescription.lithium>
 <entityname.chlorine>氯</entityname.chlorine>
@@ -2831,7 +2831,7 @@
 <entitydescription.mediccrate>一个装满医疗用品与药物原料的箱子。</entitydescription.mediccrate>
 <entityname.rustdecal>锈蚀装饰</entityname.rustdecal>
 <entitydescription.rustdecal>用于装饰墙壁和机器的贴花。</entitydescription.rustdecal>
-<entityname.monsterscums>凶恶怪物</entityname.monsterscums>
+<entityname.monsterscums>怪物痕迹</entityname.monsterscums>
 <entityname.humanitems>强盗装饰</entityname.humanitems>
 <entityname.stairsrightshort>左侧短梯</entityname.stairsrightshort>
 <entityname.stairsleftshort>右侧短梯</entityname.stairsleftshort>
@@ -3102,7 +3102,7 @@
 <label.emergencyhatchoverride>强制启动纵向应急舱门</label.emergencyhatchoverride>
 <label.supplies>物资</label.supplies>
 <label.togglebatteries>切换电池</label.togglebatteries>
-<label.togglesiren>拉响汽笛</label.togglesiren>
+<label.togglesiren>切换警报</label.togglesiren>
 <label.emergency>应急</label.emergency>
 <label.backuppowerarray>备用电源阵列</label.backuppowerarray>
 <label.dronecontrol>无人机控制</label.dronecontrol>
@@ -3252,9 +3252,9 @@
 <spawnpointtagstooltip>可以标记人类聚集地和任务地点。</spawnpointtagstooltip>
 
 <!-- Linked submarines -->
-<linkedsub>已连通潜艇</linkedsub>
+<linkedsub>链接的潜艇</linkedsub>
 <reloadlinkedsub>刷新</reloadlinkedsub>
-<reloadlinkedsubtooltip>从选定文件重新加载连通的潜艇</reloadlinkedsubtooltip>
+<reloadlinkedsubtooltip>从选定文件重新加载链接的潜艇</reloadlinkedsubtooltip>
 <linklinkedsub>按下空格键，与对接舱口连接</linklinkedsub>
 <reloadlinkedsuberror>无法找到潜艇文件[file]！</reloadlinkedsuberror>
 
@@ -3277,7 +3277,7 @@
 <fabricatorrequiredtime>所需时间</fabricatorrequiredtime>
 <fabricatorrequiredcondition>等级需求</fabricatorrequiredcondition>
 <fabricatorrequiredskills>所需技能</fabricatorrequiredskills>
-<fabricatorcreate>创造</fabricatorcreate>
+<fabricatorcreate>制造</fabricatorcreate>
 <fabricatorcancel>取消</fabricatorcancel>
 <fabricatorinsufficientskills>未满足制作所需的技能条件</fabricatorinsufficientskills>
 <fabricatorsufficientskills>满足制作所需的技能条件</fabricatorsufficientskills>
@@ -3381,7 +3381,7 @@
 <researchstation.research>研究</researchstation.research>
 <researchstation.research.infotext>植入异星材料。请谨慎使用。</researchstation.research.infotext>
 <researchstation.refine>精炼</researchstation.refine>
-<researchstation.refine.infotext>鉴别遗传物质。准备精炼。警告：样品被污染的概率为[taintedprobability]%。</researchstation.refine.infotext>
+<researchstation.refine.infotext>检测到遗传物质。准备精炼。警告：样品被污染的概率为[taintedprobability]%。</researchstation.refine.infotext>
 <researchstation.refine.missingitem>材料不足，插入更多遗传物质方可进行精炼。</researchstation.refine.missingitem>
 <researchstation.combine>融合</researchstation.combine>
 <researchstation.combine.infotext>检测到不稳定的材料组合。请谨慎操作。</researchstation.combine.infotext>
