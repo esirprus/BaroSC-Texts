@@ -84,8 +84,8 @@
     <subeditor.lightcountwarning>该潜艇有非常多的光源，这可能导致性能问题。考虑减少灯光的数量。</subeditor.lightcountwarning>
     <subeditor.lightcounterror>该潜艇有太多的光源（>[max]），这将导致性能问题。请减少灯的数量。</subeditor.lightcounterror>
     <subeditor.shadowcastinglightcounterror>该潜艇有太多投影光源（>[max]），这将导致性能问题。请减少灯光的数量，或者禁用某些灯光的阴影投射。</canattachtoprevious>
-    <canattachtoprevious></canattachtoprevious>
-    <canattachtoprevious.tooltip></canattachtoprevious.tooltip>
+    <canattachtoprevious>可以附加到之前的模块</canattachtoprevious>
+    <canattachtoprevious.tooltip>这个模块的哪一面可以连接到之前放置的模块上。例如，如果你想让一个模块总是连接到对接模块的左侧，你可以把它设置为右侧。</canattachtoprevious.tooltip>
 
     <subeditor.packagealreadyexists>已经有一个名字为"[name]"的内容包，请使用另外的名字。如果你想编辑它，请从列表中选择该内容包。</subeditor.packagealreadyexists>
     <subeditor.duplicatesubinpackage>该内容包已经包含了一个同名的潜艇。你想覆盖其中的潜艇文件吗？</subeditor.duplicatesubinpackage>
@@ -113,7 +113,7 @@
     <spriteeditor.colorcomponentr>R</spriteeditor.colorcomponentr>
     <spriteeditor.colorcomponentg>G</spriteeditor.colorcomponentg>
     <spriteeditor.colorcomponentb>B</spriteeditor.colorcomponentb>
-    <spriteeditor.allchangessavedto>将所有改动保存至:</spriteeditor.allchangessavedto>
+    <spriteeditor.allchangessavedto>所有改动已保存至:</spriteeditor.allchangessavedto>
 
     <!-- Event editor -->
     <eventeditor.loadevent>加载预设事件</eventeditor.loadevent>
@@ -594,17 +594,16 @@
     <sp.vulnerabletoemp.name>易受电磁脉冲影响</sp.vulnerabletoemp.name>
     <sp.vulnerabletoemp.description>物品是否会被电磁脉冲损坏</sp.vulnerabletoemp.description>
 
-    <!--暂时移除翻译
-     Structure 
+    <!-- Structure -->
     <entityname.hull>船体</entityname.hull>
     <entitydescription.hull>船体决定了哪些部件被认为在“潜艇内部”，一般来说，每个房间都应该用船体围起来</entitydescription.hull>
     <entityname.gap>通路</entityname.gap>
-    <entitydescription.gap>通路允许水和空气在两个船体间流动</entitydescription.gap>
+    <entitydescription.gap>通路允许水和空气在两个船体间流动。</entitydescription.gap>
     <entityname.waypoint>路径点</entityname.waypoint>
-    <entitydescription.waypoint>设置AI的移动路径</entitydescription.waypoint>
+    <entitydescription.waypoint>被用于AI在潜艇中寻路。</entitydescription.waypoint>
     <entityname.spawnpoint>出生点</entityname.spawnpoint>
-    <entitydescription.spawnpoint>设置船员的出生地点</entitydescription.spawnpoint>
-
+    <entitydescription.spawnpoint>设置船员的出生地点。</entitydescription.spawnpoint>
+    <!--
     <entityname.horizontalresizablewindow>Window Horizontal Resizable</entityname.horizontalresizablewindow>
     <entityname.verticalresizablewindow>Window Vertical Resizable</entityname.verticalresizablewindow>
 
@@ -1123,8 +1122,8 @@
     <entityname.ruinwallverticalsmall>Ruin Wall Small Vertical</entityname.ruinwallverticalsmall>
     <entityname.ruinback>Ruin Back Wall Basic</entityname.ruinback>
     <entityname.ruinprop>Ruin Prop</entityname.ruinprop>
-
-    <entityname.bunk>Bunk</entityname.bunk>
+    
+    <entityname.bunk>床铺</entityname.bunk>
 
     Outpost decorative structures
     <entityname.opdeco_weaponstoragesuit1>套装展示柜</entityname.opdeco_weaponstoragesuit1>
@@ -1493,67 +1492,6 @@
     <particle.brownchunks>棕色碎块</particle.brownchunks>
     <particle.aliengas>外星气体</particle.aliengas>
     <!--other-->
-    <subeditor.shadowcastinglightswarning>游戏中运用了大量的投影，可能会导致一些性能上的问题。你可能想要禁用引用投射，调整光源：让照明穿过墙壁和门、昏暗或范围较窄的静态光环境下不一定需要投影；潜艇外的光源可以设在潜艇后面，这种情况也无需投影。</subeditor.shadowcastinglightswarning>
-    <subeditor.outpostcommonness>概率</subeditor.outpostcommonness>
-    <subeditor.price>价格</subeditor.price>
-    <subeditor.autosaveage> [hours]小时[minutes]分[seconds]秒前已保存</subeditor.autosaveage>
-    <subeditor.savedjustnow>刚刚</subeditor.savedjustnow>
-    <subeditor.saveageminutes>[minutes]分以前</subeditor.saveageminutes>
-    <subeditor.savedmorethanhour>一小时之前</subeditor.savedmorethanhour>
-    <subeditor.autosaveentry>[submarine] ([saveage])</subeditor.autosaveentry>
-    <subeditor.toggleimageediting>切换到图像编辑</subeditor.toggleimageediting>
-    <subeditor.addimage>添加图片</subeditor.addimage>
-    <subeditor.imageeditingmode>图像编辑模式</subeditor.imageeditingmode>
-    <subeditor.togglegrid>切换到网格</subeditor.togglegrid>
-    <subeditor.editbackgroundcolor>编辑背景色</subeditor.editbackgroundcolor>
-    <subeditor.toggletransparency>切换布线模式透明度</subeditor.toggletransparency>
-    <subeditorvisibilitybutton>切换可见性</subeditorvisibilitybutton>
-    <subeditorvisibilitytooltip>选择可见的实体类型</subeditorvisibilitytooltip>
-    <subeditoreditingmode>编辑模式</subeditoreditingmode>
-    <editor.cut>剪切</editor.cut>
-    <editor.paste>粘贴</editor.paste>
-    <particle.muzzleflash>枪口焰</particle.muzzleflash>
-    <gapinsidehullwarning>这个通路没什么用，因为缺口两侧都在舰艇内部，没通到另一侧。如果你想让水和氧气通过这个通路，或者阻断其间的流通，需要将它放置在两层船壳之间。</gapinsidehullwarning>
-    <opensubbutton>打开…</opensubbutton>
-    <generatewaypointsverification>你确定要重新生成潜艇中的路径点吗？所有的路径点都会重置，为确保AI操纵的角色能够在潜艇正常行动，你需要在角色生成后对路径点进行手动调整，添加更多的路径点并确保它们连接无误，以确保各路径点的路径覆盖了潜艇中的所有舱室。</generatewaypointsverification>
-    <waypointsgeneratedsuccesfully>路径点已生成</waypointsgeneratedsuccesfully>
-    <loadautosave>加载自动存档</loadautosave>
-    <loadautosavetooltip>恢复到最近的自动存档</loadautosavetooltip>
-    <autosaved>已自动存档</autosaved>
-    <wirelistformat>[item] ([pin])</wirelistformat>
-    <entitymenutoggletooltip>切换实体菜单</entitymenutoggletooltip>
-    <testsubbutton>测试</testsubbutton>
-    <pausemenureturntoeditor>返回编辑器</pausemenureturntoeditor>
-    <gamemode.subtest>潜艇测试模式</gamemode.subtest>
-    <nohumanspawnpointwarning>潜艇未设置人类出生点，人类不能正常生成。请创建一个新的出生点，并将“出生类型”变更为“Human”</nohumanspawnpointwarning>
-    <editable.minvalue>最小</editable.minvalue>
-    <editable.maxvalue>最大</editable.maxvalue>
-    <savesubtospecialfolderprompt>已将该类型的潜艇标记为'[type]'，是否将其保存到 '[outpostpath]' （非默认潜艇文件夹）？</savesubtospecialfolderprompt>
-    <addtocontentpackageprompt>是否要将该文件添加到'[packagename]'内容包？</addtocontentpackageprompt>
-    <editor.selectsame>选择对应物品</editor.selectsame>
-    <sp.regexfindcomponent.usecapturegroup.name>使用捕获组</sp.regexfindcomponent.usecapturegroup.name>
-    <sp.regexfindcomponent.usecapturegroup.description>决定该组件是否会输出一个名为捕获组的数值</sp.regexfindcomponent.usecapturegroup.description>
-    <sp.regexfindcomponent.output.description>当接收到的信号与目标信号或者捕获组的名称匹配时，该组件输出的信号</sp.regexfindcomponent.output.description>
-    <sp.nametag.writtenname.name>名称</sp.nametag.writtenname.name>
-    <sp.nametag.writtenname.description>写在标签上的名称</sp.nametag.writtenname.description>
-    <sp.item.rotation.name>旋转</sp.item.rotation.name>
-    <editor.undohistorybutton>历史操作</editor.undohistorybutton>
-    <undo.beginning>开端</undo.beginning>
-    <undo.beginningtooltip>撤销历史操作的开端</undo.beginningtooltip>
-    <undo.removeditem>删除[item]</undo.removeditem>
-    <undo.removeditemsmultiple>删除[count]个物品</undo.removeditemsmultiple>
-    <undo.addeditem>新增[item]</undo.addeditem>
-    <undo.addeditemsmultiple>新增[count]个物品</undo.addeditemsmultiple>
-    <undo.changedproperty>将[item]的[property]设为[value]</undo.changedproperty>
-    <undo.changedpropertymultiple>将[count]个[item]的[property]设置为[value]</undo.changedpropertymultiple>
-    <undo.resizeditem>调整[item]的大小</undo.resizeditem>
-    <undo.moveditem>移动[item]</undo.moveditem>
-    <undo.moveditemsmultiple>移动[count]个物品</undo.moveditemsmultiple>
-    <undo.droppeditem>放弃[item]</undo.droppeditem>
-    <undo.containeditem>将[item]移入[container]</undo.containeditem>
-    <undo.containeditemsmultiple>将[count]个物品移入[container]</undo.containeditemsmultiple>
-    <editor.suppresswarnings>不再显示这些警告</editor.suppresswarnings>
-    <showwires>线缆</showwires>
     <sp.particleprefab.lifetime.name>粒子存在时间</sp.particleprefab.lifetime.name>
     <sp.particleprefab.lifetime.description>粒子会继续动态存在多少秒</sp.particleprefab.lifetime.description>
     <sp.particleprefab.startdelaymin.name>最低初始延迟</sp.particleprefab.startdelaymin.name>
