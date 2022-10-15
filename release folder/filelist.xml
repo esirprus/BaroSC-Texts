@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="[BOS]中文优化" corepackage="false" modversion="1.0.0" gameversion="0.19.11.0">
+  <Text file="%ModDir%/SimplifiedChineseVanilla.xml" />
+</contentpackage>
