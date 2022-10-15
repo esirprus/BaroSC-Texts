@@ -685,7 +685,7 @@
   <output>输出用户提交的字符串。</output>
   <showinfolder>在文件夹中显示</showinfolder>
   <showinfoldererror>打开 "[folder]"文件夹失败 ([errormessage])。</showinfoldererror>
-<wreckeditemformat>[name] （遇难船）</wreckeditemformat>
+  <wreckeditemformat>[name] （遇难船）</wreckeditemformat>
 <message>消息</message>
 <legacyitemformat>[name] (旧版物品)</legacyitemformat>
   <moderationmenu.userdetails>细节</moderationmenu.userdetails>
@@ -7107,7 +7107,7 @@
     <deletingcontainerwithitems>您删除了一个装有物品的容器，是否要将其中包含的物品一并删除？\n\nContained items:\n\n</deletingcontainerwithitems>
     <hideinmenus>隐藏菜单</hideinmenus>
     <manuallyoutfitted>已手动配置</manuallyoutfitted>
-    <manuallyoutfittedtooltip>潜艇初始时是否有足够的手动放置的物资，还是依靠自动放置的物品和/或随玩家转移的物品？<unspecifiedsubfilename>未命名</unspecifiedsubfilename>
+    <manuallyoutfittedtooltip>潜艇初始时是否有足够的手动放置的物资，还是依靠自动放置的物品和/或随玩家转移的物品？</manuallyoutfittedtooltip>
     <unspecifiedsubfilename>未命名</unspecifiedsubfilename>
     <reloadsprite>重新加载贴图</reloadsprite>
     <resettoprefab>重置为预设</resettoprefab>
@@ -7125,7 +7125,7 @@
     <subeditor.itemcounterror>该潜艇有太多的物品（>[max]），这将导致性能问题。请减少物品的数量。</subeditor.itemcounterror>
     <subeditor.lightcountwarning>该潜艇有非常多的光源，这可能导致性能问题。考虑减少灯光的数量。</subeditor.lightcountwarning>
     <subeditor.lightcounterror>该潜艇有太多的光源（>[max]），这将导致性能问题。请减少灯的数量。</subeditor.lightcounterror>
-    <subeditor.shadowcastinglightcounterror>该潜艇有太多投影光源（>[max]），这将导致性能问题。请减少灯光的数量，或者禁用某些灯光的阴影投射。</canattachtoprevious>
+    <subeditor.shadowcastinglightcounterror>该潜艇有太多投影光源（>[max]），这将导致性能问题。请减少灯光的数量，或者禁用某些灯光的阴影投射。</subeditor.shadowcastinglightcounterror>
     <canattachtoprevious>可以附加到之前的模块</canattachtoprevious>
     <canattachtoprevious.tooltip>这个模块的哪一面可以连接到之前放置的模块上。例如，如果你想让一个模块总是连接到对接模块的左侧，你可以把它设置为右侧。</canattachtoprevious.tooltip>
 
